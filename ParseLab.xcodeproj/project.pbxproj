@@ -13,6 +13,7 @@
 		BE2959031E5E7F86005C58F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2959021E5E7F86005C58F0 /* Assets.xcassets */; };
 		BE2959061E5E7F86005C58F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2959041E5E7F86005C58F0 /* LaunchScreen.storyboard */; };
 		BE9A11461E669ECB0032EAB5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A11451E669ECB0032EAB5 /* LoginViewController.swift */; };
+		BE9A11481E66A5700032EAB5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A11471E66A5700032EAB5 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		BE2959051E5E7F86005C58F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE2959071E5E7F86005C58F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE9A11451E669ECB0032EAB5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BE9A11471E66A5700032EAB5 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		D05D206B706BDBAD3263F7A5 /* Pods_ParseLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				BE2958FB1E5E7F86005C58F0 /* AppDelegate.swift */,
 				BE9A11451E669ECB0032EAB5 /* LoginViewController.swift */,
 				BE2958FF1E5E7F86005C58F0 /* Main.storyboard */,
+				BE9A11471E66A5700032EAB5 /* ChatViewController.swift */,
 				BE2959021E5E7F86005C58F0 /* Assets.xcassets */,
 				BE2959041E5E7F86005C58F0 /* LaunchScreen.storyboard */,
 				BE2959071E5E7F86005C58F0 /* Info.plist */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE9A11461E669ECB0032EAB5 /* LoginViewController.swift in Sources */,
+				BE9A11481E66A5700032EAB5 /* ChatViewController.swift in Sources */,
 				BE2958FC1E5E7F86005C58F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
