@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		B4F11F45F6761A0C11FBC972 /* Pods_ParseLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05D206B706BDBAD3263F7A5 /* Pods_ParseLab.framework */; };
 		BE2958FC1E5E7F86005C58F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2958FB1E5E7F86005C58F0 /* AppDelegate.swift */; };
-		BE2958FE1E5E7F86005C58F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2958FD1E5E7F86005C58F0 /* ViewController.swift */; };
 		BE2959011E5E7F86005C58F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2958FF1E5E7F86005C58F0 /* Main.storyboard */; };
 		BE2959031E5E7F86005C58F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2959021E5E7F86005C58F0 /* Assets.xcassets */; };
 		BE2959061E5E7F86005C58F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2959041E5E7F86005C58F0 /* LaunchScreen.storyboard */; };
+		BE9A11461E669ECB0032EAB5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A11451E669ECB0032EAB5 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +20,11 @@
 		A432C707FE3486B0FA21581E /* Pods-ParseLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseLab/Pods-ParseLab.debug.xcconfig"; sourceTree = "<group>"; };
 		BE2958F81E5E7F86005C58F0 /* ParseLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2958FB1E5E7F86005C58F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE2958FD1E5E7F86005C58F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE2959001E5E7F86005C58F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE2959021E5E7F86005C58F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE2959051E5E7F86005C58F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE2959071E5E7F86005C58F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9A11451E669ECB0032EAB5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D05D206B706BDBAD3263F7A5 /* Pods_ParseLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				BE2958FB1E5E7F86005C58F0 /* AppDelegate.swift */,
-				BE2958FD1E5E7F86005C58F0 /* ViewController.swift */,
+				BE9A11451E669ECB0032EAB5 /* LoginViewController.swift */,
 				BE2958FF1E5E7F86005C58F0 /* Main.storyboard */,
 				BE2959021E5E7F86005C58F0 /* Assets.xcassets */,
 				BE2959041E5E7F86005C58F0 /* LaunchScreen.storyboard */,
@@ -211,7 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE2958FE1E5E7F86005C58F0 /* ViewController.swift in Sources */,
+				BE9A11461E669ECB0032EAB5 /* LoginViewController.swift in Sources */,
 				BE2958FC1E5E7F86005C58F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +376,7 @@
 				BE29590C1E5E7F86005C58F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
