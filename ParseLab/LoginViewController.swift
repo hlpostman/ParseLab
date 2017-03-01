@@ -36,6 +36,7 @@ class LoginViewController: UIViewController {
             if let error = error {
                 print(error.localizedDescription)
             } else {
+                self.goToChatroom()
                 print("User logged in successfully")
             }
             
@@ -54,11 +55,16 @@ class LoginViewController: UIViewController {
             if let error = error {
                 print(error.localizedDescription)
             } else {
+                self.goToChatroom()
                 print("User registered successfully")
                 // manually segue to logged in view
             }
         }
  
+    }
+    
+    func goToChatroom() {
+        self.performSegue(withIdentifier: "login_or_signup_segue_to_chatroom", sender: nil)
     }
     /*
     // MARK: - Navigation
