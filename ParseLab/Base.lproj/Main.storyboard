@@ -80,7 +80,29 @@
                     <view key="view" contentMode="scaleToFill" id="OPq-BM-34D">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What's on your mind?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5KG-mh-UPR">
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYN-e4-T1h">
+                                <frame key="frameInset" minX="256" minY="204" width="87" height="30"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Send">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5KG-mh-UPR" firstAttribute="top" secondItem="61e-VR-cwc" secondAttribute="bottom" constant="146" id="3bZ-Tf-3u8"/>
+                            <constraint firstItem="5KG-mh-UPR" firstAttribute="leading" secondItem="OPq-BM-34D" secondAttribute="leading" constant="32" id="ZLH-9g-a57"/>
+                            <constraint firstItem="AYN-e4-T1h" firstAttribute="trailing" secondItem="5KG-mh-UPR" secondAttribute="trailing" id="aod-AW-O1b"/>
+                            <constraint firstAttribute="trailing" secondItem="5KG-mh-UPR" secondAttribute="trailing" constant="32" id="cpx-QG-XmV"/>
+                            <constraint firstItem="AYN-e4-T1h" firstAttribute="top" secondItem="5KG-mh-UPR" secondAttribute="bottom" constant="8" id="mov-dy-z4L"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Chat" id="6Rj-2Y-hha"/>
                 </viewController>
