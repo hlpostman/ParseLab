@@ -93,6 +93,9 @@
                                 <state key="normal" title="Send">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onSendButton:" destination="8hW-Bs-X5c" eventType="touchUpInside" id="55X-tf-tfe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -105,6 +108,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Chat" id="6Rj-2Y-hha"/>
+                    <connections>
+                        <outlet property="messageField" destination="5KG-mh-UPR" id="LgJ-au-ijm"/>
+                        <outlet property="sendButton" destination="OPq-BM-34D" id="U3i-16-SMo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DSP-bN-VuR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
